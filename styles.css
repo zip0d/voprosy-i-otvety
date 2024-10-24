@@ -1,0 +1,187 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Стили для хедера */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.header__nav {
+    font-size: 1rem;
+}
+
+.header__menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.header__menu-item a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header__menu-item a:hover {
+    text-decoration: underline;
+}
+
+/* Стили для основного контента */
+.main {
+    padding: 20px;
+}
+
+/* Стили для интро */
+.intro {
+    background-color: #e0e0e0;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.intro__title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.intro__text {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.intro__button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.intro__button:hover {
+    background-color: #555;
+}
+
+/* Стили для секции "О нас" */
+.about {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+.about__title {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.about__text {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.about__button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.about__button:hover {
+    background-color: #555;
+}
+
+/* Стили для секции услуг */
+.services__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.service-item {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    flex-basis: calc(33.333% - 40px);
+    box-sizing: border-box;
+}
+
+.service-item__title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.service-item__description {
+    font-size: 1rem;
+}
+
+/* Стили для отзывов */
+.testimonials__list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.testimonial {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.testimonial__text {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.testimonial__author {
+    font-size: 1rem;
+    font-style: italic;
+    text-align: right;
+}
+
+/* Стили для футера */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.footer__links {
+    margin-bottom: 10px;
+}
+
+.footer__link {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer__link:hover {
+    text-decoration: underline;
+}
+
+.footer__text {
+    font-size: 0.9rem;
+}
